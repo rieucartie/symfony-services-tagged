@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FormatterController!{% endblock %}
+
+{% block body %}
+
+    <h1>
+        {% for debugMessage in debugMessages %}
+            {{debugMessage}}
+        {% endfor%}
+    </h1>
+
+{% endblock %}
